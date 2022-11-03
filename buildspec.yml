@@ -22,3 +22,20 @@ artifacts:
 # "Resource": "arn:aws:s3:::YOUR DESTINATION BUCKET NAME/*" }
 # ]
 # }
+
+
+Terraform
+# provider "aws" {
+#   region     = "ap-south-1"
+#   access_key = "AKIAWWEDPL3FHKPA7H4G"
+#   secret_key = "0COsUXxT4aQ14HGQ49G8OMm4x37ECyu0dcNWq6vT"
+# }
+
+# resource "aws_instance" "my-first-server" {
+#   ami           = "ami-068257025f72f470d"
+#   instance_type = "t2.micro"
+
+#   tags = {
+#     Name = "ubuntu"
+#   }
+# }
