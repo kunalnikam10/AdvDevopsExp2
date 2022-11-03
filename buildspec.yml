@@ -23,8 +23,7 @@ artifacts:
 # ]
 # }
 
-
-Terraform
+# Terraform
 # provider "aws" {
 #   region     = "ap-south-1"
 #   access_key = "AKIAWWEDPL3FHKPA7H4G"
